@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include elements/tag_head.ejs%>
+</head>
+<body>
+<!--
+	Upper Header Section
+-->
+<% include elements/upper_header.ejs%>
+<!--
+Lower Header Section
+-->
+<div class="container">
+    <% include elements/lower_header.ejs%>
+
+    <!--
+    Navigation Bar Section
+    -->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class=""><a href="/sales">Năm	</a></li>
+                        <li class=""><a href="/sales">Quý</a></li>
+                        <li class=""><a href="/sales">Tháng</a></li>
+                        <li class=""><a href="/sales">Tuần</a></li>
+                        <li class=""><a href="/sales">Ngày</a></li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>    <!--
+    Body Section
+    -->
+    <div class="row">
+        <% include elements/sidebar.ejs%>
+        <img width="700" src="assets/img/doanhthu.PNG" alt="">
+
+        <!--
+
+
+ </div> //container
+
+  <% include elements/copyright.ejs%>
+  <a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
+  <-- Placed at the end of the document so the pages load faster -->
+        <% include elements/script_end.ejs%>
+    </div>
+
+</div>
+</body>
+</html>
