@@ -55,4 +55,9 @@ router.get('/detail', function(req, res, next) {
 router.get('/status', function(req, res, next) {
   res.render('status_products', { title: 'Express' });
 });
+
+/* get advanced searching page*/
+router.get('/advanced', function(req, res, next) {
+  res.render('advanced_searching', { title: 'Express' });
+});
 module.exports = router;

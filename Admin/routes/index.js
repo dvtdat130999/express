@@ -35,9 +35,23 @@ router.get('/sales_month', function(req, res, next) {
 router.get('/sales_week', function(req, res, next) {
   res.render('sales', { title: 'Express' });
 });
-
 /* GET top-selling page. */
-router.get('/top', function(req, res, next) {
-  res.render('top_selling', { title: 'Express' });
+router.get('/top_bracelet', function(req, res, next) {
+  res.render('top_selling_bracelet', { title: 'Express' });
+});
+
+/* GET top-selling ring page. */
+router.get('/top_ring', function(req, res, next) {
+  res.render('top_selling_ring', { title: 'Express' });
+});
+
+/* GET ring list page. */
+router.get('/ring', function(req, res, next) {
+  res.render('ring', { title: 'Express' });
+});
+
+/* GET bracelet list page. */
+router.get('/bracelet', function(req, res, next) {
+  res.render('bracelet', { title: 'Express' });
 });
 module.exports = router;
