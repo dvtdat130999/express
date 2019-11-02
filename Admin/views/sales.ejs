@@ -17,34 +17,34 @@ Lower Header Section
     <!--
     Navigation Bar Section
     -->
-    <div class="navbar">
-        <div class="navbar-inner">
-            <div class="container">
-                <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class=""><a href="/sales">Năm	</a></li>
-                        <li class=""><a href="/sales">Quý</a></li>
-                        <li class=""><a href="/sales">Tháng</a></li>
-                        <li class=""><a href="/sales">Tuần</a></li>
-                        <li class=""><a href="/sales">Ngày</a></li>
-
-                    </ul>
-
-
-                </div>
-            </div>
-        </div>
-    </div>    <!--
+    <%include elements/navbar.ejs%>
+    <!--
     Body Section
     -->
     <div class="row">
-        <% include elements/sidebar.ejs%>
-        <img width="700" src="assets/img/doanhthu.PNG" alt="">
+        <div id="sidebar" class="span3">
+            <div class="well well-small">
+                <ul class="nav nav-list">
+                    <li><a href="/sales"><span class="icon-chevron-right"></span>Năm</a></li>
+                    <li><a href="/sales"><span class="icon-chevron-right"></span>Quý</a></li>
+                    <li><a href="/sales"><span class="icon-chevron-right"></span>Tháng</a></li>
+                    <li><a href="/sales"><span class="icon-chevron-right"></span>Tuần</a></li>
+                    <li><a href="/sales"><span class="icon-chevron-right"></span>Ngày</a></li>
+
+
+
+                    <li style="border:0"> &nbsp;</li>
+                </ul>
+            </div>
+
+
+
+
+        </div>
+        <div class="span9">
+            <img width="1100" src="assets/img/doanhthu.PNG" alt="">
+
+        </div>
 
         <!--
 

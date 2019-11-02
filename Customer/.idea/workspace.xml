@@ -16,7 +16,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -60,6 +60,8 @@
       <workItem from="1572532703635" duration="323000" />
       <workItem from="1572534080769" duration="4170000" />
       <workItem from="1572616615359" duration="1991000" />
+      <workItem from="1572621130038" duration="614000" />
+      <workItem from="1572656667281" duration="239000" />
     </task>
     <servers />
   </component>

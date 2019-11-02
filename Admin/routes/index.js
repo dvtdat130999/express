@@ -36,8 +36,8 @@ router.get('/sales_week', function(req, res, next) {
   res.render('sales', { title: 'Express' });
 });
 /* GET top-selling page. */
-router.get('/top_bracelet', function(req, res, next) {
-  res.render('top_selling_bracelet', { title: 'Express' });
+router.get('/top_necklace', function(req, res, next) {
+  res.render('top_selling_necklace', { title: 'Express' });
 });
 
 /* GET top-selling ring page. */
@@ -51,7 +51,12 @@ router.get('/ring', function(req, res, next) {
 });
 
 /* GET bracelet list page. */
-router.get('/bracelet', function(req, res, next) {
-  res.render('bracelet', { title: 'Express' });
+router.get('/necklace', function(req, res, next) {
+  res.render('necklace', { title: 'Express' });
+});
+
+/* GET bill list page. */
+router.get('/bill', function(req, res, next) {
+  res.render('bill', { title: 'Express' });
 });
 module.exports = router;
